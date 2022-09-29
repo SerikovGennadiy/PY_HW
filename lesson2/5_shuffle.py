@@ -23,4 +23,3 @@ def shuffle(mass: list) -> enumerate:
 
 result = shuffle(numbers)
 print(result)
-
