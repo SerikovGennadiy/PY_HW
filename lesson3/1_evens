@@ -1,0 +1,7 @@
+from random import sample
+
+n = int(input("insert n: "))
+nums = sample(range(n*10), k=n)
+
+print(nums)
+print(sum(nums[::2]))
