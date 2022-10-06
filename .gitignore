@@ -7,7 +7,8 @@ __pycache__/
 *.so
 
 .idea/
-.lection/
+.webinars/*
+
 # Distribution / packaging
 .Python
 build/
