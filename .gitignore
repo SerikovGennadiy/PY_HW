@@ -7,7 +7,7 @@ __pycache__/
 *.so
 
 .idea/
-.webinars/*
+.webinars/
 
 # Distribution / packaging
 .Python
