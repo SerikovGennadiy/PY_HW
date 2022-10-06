@@ -1,22 +1,18 @@
-n = int(input())
-
-positive_part = [0]
-negative_part = []
+n = int(input("insert position's amount: "))
 
 i = 0
-negative_part.append(i)
+positive_part = [i]
 
 j = 1
 positive_part.append(j)
-negative_part.append(j)
+negative_part = [j]
 
-for p in range(n):
+for p in range(1, n + 1):
     k = i + j
     positive_part.append(k)
-    print(-1 ** p)
-    negative_part.append(k * (-1 ** p))
+    negative_part.append(k * ((-1) ** p))
     i = j
     j = k
 
-print(positive_part)
-print(negative_part)
+result = [*negative_part[::-1], *positive_part]
+print(result)
