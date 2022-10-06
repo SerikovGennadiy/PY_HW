@@ -7,7 +7,7 @@ j = 1
 positive_part.append(j)
 negative_part = [j]
 
-for p in range(1, n + 1):
+for p in range(1, n):
     k = i + j
     positive_part.append(k)
     negative_part.append(k * ((-1) ** p))
