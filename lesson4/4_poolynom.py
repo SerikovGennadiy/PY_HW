@@ -7,7 +7,6 @@ def generate_polynom(order: int) -> str:
 
     _rand_cuffs = choices([*range(2, order)], k=randrange(1, order))
     _cuffs = [*set(_rand_cuffs)]
-    print(_cuffs)
 
     for c in _cuffs[:0:-1]:
         next_part_polling = f'{randrange(1, order)}*x^{c} {choice("+-")}'
