@@ -20,3 +20,4 @@ with open("poly.txt", "w") as poly:
     for _ in range(3):
         poly.write(generate_polynom(order=int(input())))
         poly.write("\n")
+
