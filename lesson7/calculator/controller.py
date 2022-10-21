@@ -11,10 +11,6 @@ def init():
     ui.show_menu()
 
 
-def show_result(result):
-    ui.show_result(result)
-
-
 def start():
     while True:
         q = input('Quit ? (yes/no): ')
