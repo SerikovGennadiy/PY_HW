@@ -8,13 +8,12 @@ operation_type = Operation.Unset
 def init():
     show_menu()
 
-#
-# def preset_num_type():
-#     global number_type = NumType(int(input()))
-#
-#
-# def preset_oper_type() -> Operation:
-#     return Operation(int(input()))
 
-x = NumType(int(input()))
-print(x.name)
+def choice_num_type():
+    global number_type
+    number_type = NumType(int(input()))
+
+
+def choice_operation():
+    global operation_type
+    operation_type = Operation(int(input()))
