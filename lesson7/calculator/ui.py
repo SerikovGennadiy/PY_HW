@@ -14,3 +14,7 @@ def _menu() -> str:
 
 def show_menu():
     print(_menu())
+
+
+def show_result(result):
+    print(result)

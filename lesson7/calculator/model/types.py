@@ -6,6 +6,7 @@ class NumType(Enum):
     Complex = 1
     Real = 2
 
+
 class Operation(Enum):
     Unset = 0
     Addition = 1
