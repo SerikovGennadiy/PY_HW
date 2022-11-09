@@ -1,0 +1,2 @@
+print("Cross-zero game")
+
